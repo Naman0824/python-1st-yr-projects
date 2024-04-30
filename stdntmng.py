@@ -196,7 +196,7 @@ def roll_exist():
                                 except ValueError as e:
                                     print(e)
         
-                        updated_line = f"{parts[0]:<20} {parts[1]:<10} {float(parts[2]):<10.2f}\n"
+                        updated_line = f"{parts[0]:<20}    {parts[1]:<10}   {float(parts[2]):<10.2f}\n"
                         updated_lines.append(updated_line)
                     else:
                         updated_lines.append(line)
